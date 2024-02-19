@@ -1,0 +1,7 @@
+#1 8/10 looks mostly good but you should have checks to make sure the data size is correct and that you don't divide by zero!
+#2 10/10
+#3 10/10
+#4 careful - you had (1/N-2) in your chi2 calculation and you wanted (1/(N-2)). What you wrote was (1/N) - 2 :) 9/10
+#5 7/10 you're plotting the data in an odd way. You want to plot batting average as a function of launch angle, not the other way around. Also,	well done on finding parameters from Wolfram. I suggest you just use coefficients=np.polyfit(angle,babip,2), 7/10
+
+Total: 44/50
