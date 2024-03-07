@@ -1,0 +1,9 @@
+#1 The first part looks nice, though we're missing units. And you missed the second part. What you sent doesn't have a plot and indeed is taking too long to run - it should only take a few minutes at most 6/10
+#2 Missing the derivation. And I don't understand where you get this:
+    def f(x):
+        return (4*x**3)/np.sqrt(E - V(x))
+
+What is the x^3 term coming from? 6/10
+#3 As you mentioned, this isn't correct. Part of the issue may be that you want a lot more than N points on your plot. I don't think that's all of it, but it's a good part of it. So you have weird binning effects. And also didn't evaluate for the other z points. 8/10
+
+So nominally this grade would be 20/30. I will leave it as is this time. Again, next time I am going to start taking points off immediately. And if you want to use your accommodations you need to inform me right away and be explicit about it.
