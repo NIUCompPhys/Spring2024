@@ -1,0 +1,2 @@
+9.4 suggest changing the for loop over the points in depth to use numpy directly, which will speed things up significantly. also, be careful, your x axis should go to 20 m, not 100. i see that you have scaled things but it's a bit confusing to read. better to just have an array of depth points and use that, it's something we've done many times. 9/10
+9.5 you are close, but i don't know why you are using "curve" or what it is supposed to be. you should follow the animation strategy we've used a few times now. 6/10
